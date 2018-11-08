@@ -1,2 +1,6 @@
 we cancreate a react application manually as well as using "npx create-react-app myfirst-app"
 Here "myfirst-app" is the application name
+
+
+
+Note:"state is private" and "props are external";
