@@ -4,7 +4,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-            Hello World!!! from dev
+            Hello World!!! from React-quickstart
         </div>
     );
     }
