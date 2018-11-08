@@ -14,7 +14,7 @@ class App extends React.Component {
    
     updateMessage() {
         this.setState({
-            message: "my friend (from changed state)!"
+            message: "changing the previous state value (from changed state)!"
         });
     }  
     render() {
