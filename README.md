@@ -1,6 +1,13 @@
 # ReactRepo
 ReactJs Basic Examples 
 
+if you have any issues then use the following command to update the npm;
+ command: "npm update"
+ 
+ after updating npm,you can use "npm start"
+
+
+ReactStandardApiApps
 Note About JSX:
 1.Don’t put quotes around curly braces when embedding a JavaScript expression in an attribute. You should either use quotes (for string values) or curly braces (for expressions), but not both in the same attribute.
 const element = <img src={user.avatarUrl}></img>;
