@@ -4,8 +4,8 @@ class App extends React.Component {
     render() {
         return (
             <div>
-            Hello World!!!
-        </div>
+            Hello Welcome to ReactJS Standard App's.
+			</div>
     );
     }
 }
