@@ -63,6 +63,29 @@ class Welcome extends React.Component {
 ======================
 ->A button, a form, a dialog, a screen: in React apps, all those are commonly expressed as components.
 
+**Props are Read-Only:
+======================
+*Whether you declare a component as a function or a class, it must never modify its own props.
+*All React components must act like pure functions with respect to their props.
+*State allows React components to change their output over time in response to user actions, network responses, and anything else, without violating this rule.
+*State is similar to props, but it is private and fully controlled by the component.
+
+**Converting a Function to a Class:
+===================================
+You can convert a function component like Clock to a class in five steps:
+
+  1.Create an ES6 class, with the same name, that extends React.Component.
+
+  2.Add a single empty method to it called render().
+
+  3.Move the body of the function into the render() method.
+
+  4.Replace props with this.props in the render() body.
+
+  5.Delete the remaining empty function declaration.
+ 
+
+
 
 **Collected(from doc) BY Janakinaidu
 source:* https://reactjs.org/docs/components-and-props.html
