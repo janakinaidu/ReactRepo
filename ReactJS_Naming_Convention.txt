@@ -1,3 +1,10 @@
 ReactJS Naming Conventions And some important points:
 
 These points are already involved in Documentation provided in this project;
+
+1.
+** -->Since JSX is closer to JavaScript than to HTML, React DOM uses camelCase property naming convention instead of HTML attribute names. *****For example, class becomes className in JSX, and tabindex becomes tabIndex.
+
+2.
+*Always start component names with a capital letter.****** *React treats components starting with lowercase letters as DOM tags. For example,
+*represents an HTML div tag, but represents a component and requires Welcome to be in scope.
