@@ -23,10 +23,11 @@ class Clock extends React.Component {
     render() {
         return (
             <div>
-                <h1>Hello Welcome to  janakinaidu's Clock displaying App(reactAppPracticeApp2).</h1>
+                <h1>Hello Welcome to  janakinaidu's Clock displaying App(StateAndClockApp).</h1>
                 <h2>It is {this.state.currentDate.toLocaleTimeString()}.</h2>
             </div>
         );
+
     }
 }
 export default Clock;

@@ -1,5 +1,6 @@
 # ReactRepo
 ReactJs Basic Examples 
+StateAndClockApp
 Explanation of above Program:
 ------------------------------
 
@@ -12,3 +13,10 @@ https://github.com/janakinaidu/ReactRepo/tree/reactAppPracticeApp2
 **If you imagine a component tree as a waterfall of props, each component’s state is like an additional water source that joins it at an arbitrary point but also flows down.
 
 **To show that all components are truly isolated, we can create an App component that renders three <Clock>s:
+=======
+
+if you have any issues then use the following command to update the npm;
+ command: "npm update"
+ 
+ after updating npm,you can use "npm start"
+
