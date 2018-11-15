@@ -1,5 +1,6 @@
 # ReactRepo
 ReactJs Basic Examples 
+reactAppPracticeApp2
 Explanation of above Program:
 ------------------------------
 
@@ -24,3 +25,10 @@ Explanation of above Program:
 
 **A component may choose to pass its state down as props to its child components
 **This is commonly called a “top-down” or “unidirectional” data flow. Any state is always owned by some specific component, and any data or UI derived from that state can only affect components “below” them in the tree.
+=======
+
+if you have any issues then use the following command to update the npm;
+ command: "npm update"
+ 
+ after updating npm,you can use "npm start"
+
