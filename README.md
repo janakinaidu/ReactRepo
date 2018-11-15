@@ -15,8 +15,4 @@ https://github.com/janakinaidu/ReactRepo/tree/reactAppPracticeApp2
 **To show that all components are truly isolated, we can create an App component that renders three <Clock>s:
 =======
 
-if you have any issues then use the following command to update the npm;
- command: "npm update"
- 
- after updating npm,you can use "npm start"
-
+**In React apps, whether a component is stateful or stateless is considered an implementation detail of the component that may change over time. You can use stateless components inside stateful components, and vice versa.
