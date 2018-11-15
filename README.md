@@ -3,13 +3,12 @@ ReactJs Basic Examples
 Explanation of above Program:
 ------------------------------
 
+*Note:Please Refer the previous branch code to understand this applicaition clearly [reactAppPracticeApp2]
+https://github.com/janakinaidu/ReactRepo/tree/reactAppPracticeApp2
 
-1.**When <Clock /> is passed to ReactDOM.render()[main.js], React calls the constructor of the Clock component. Since Clock needs to display the current time, it initializes this.state with an object including the current time. We will later update this state.
 
-2.**React then calls the Clock component’s render() method. This is how React learns what should be displayed on the screen. React then updates the DOM to match the Clock’s render output.
+**This is commonly called a “top-down” or “unidirectional” data flow. Any state is always owned by some specific component, and any data or UI derived from that state can only affect components “below” them in the tree.
 
-3.**When the Clock output is inserted in the DOM, React calls the componentDidMount() lifecycle method. Inside it, the Clock component asks the browser to set up a timer to call the component’s tick() method once a second.
+**If you imagine a component tree as a waterfall of props, each component’s state is like an additional water source that joins it at an arbitrary point but also flows down.
 
-4.**Every second the browser calls the tick() method. Inside it, the Clock component schedules a UI update by calling setState() with an object containing the current time. Thanks to the setState() call, React knows the state has changed, and calls the render() method again to learn what should be on the screen. This time, this.state.date in the render() method will be different, and so the render output will include the updated time. React updates the DOM accordingly.
-
-5.**If the Clock component is ever removed from the DOM, React calls the componentWillUnmount() lifecycle method so the timer is stopped.
+**To show that all components are truly isolated, we can create an App component that renders three <Clock>s:
