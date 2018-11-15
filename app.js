@@ -7,12 +7,12 @@ class Clock extends React.Component {
         this.state = { currentDate: new Date() };
     }
     componentDidMount() {
-        console.log("this statement was executed after DOM rendered by the Clock class");
+        console.log("this statement will executed after DOM rendered by the Clock class");
         this.timerID = setInterval(() => this.tick(), 1000);
     }
     componentWillUnmount() {
         clearInterval(this.timerID);
-        console.log("this statement was executed after DOM destroyed");
+        console.log("this statement will executed after DOM destroyed");
     }
     tick() {
         this.setState({
