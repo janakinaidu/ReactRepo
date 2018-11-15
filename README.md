@@ -4,7 +4,7 @@ Explanation of above Program:
 ------------------------------
 
 
-1.**When <Clock /> is passed to ReactDOM.render(), React calls the constructor of the Clock component. Since Clock needs to display the current time, it initializes this.state with an object including the current time. We will later update this state.
+1.**When <Clock /> is passed to ReactDOM.render()[main.js], React calls the constructor of the Clock component. Since Clock needs to display the current time, it initializes this.state with an object including the current time. We will later update this state.
 
 2.**React then calls the Clock component’s render() method. This is how React learns what should be displayed on the screen. React then updates the DOM to match the Clock’s render output.
 
