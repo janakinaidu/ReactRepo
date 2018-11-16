@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App.js';
+import Toggle from './App.js';
 
-ReactDOM.render(<App message="Hai this message from props" />, document.getElementById('app'));
+ReactDOM.render(<Toggle />, document.getElementById('app'));
