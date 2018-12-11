@@ -1,2 +1,37 @@
 we cancreate a react application manually as well as using "npx create-react-app myfirst-app"
 Here "myfirst-app" is the application name
+
+Some keypoints regarding ReactJS Concepts:
+==========================================
+1.What is React?
+->React is an open-source library for building user interfaces.
+->React is a javascript library but it is not a framework
+-->It focuses only on rich user interfaces but not on Handling routing HTTP.
+
+Now You would lnow:How you handle routing and HTTP other functionality in Reactjs
+A:It has Rich ecosystem.
+
+-->Created and maintained by Facebook;
+
+2.React is a Component based architecture,this lets you breakdown your application into small
+  encapsulated parts which can then be composed to make more complext UI's.
+
+  Example:
+  HEADER,SIDENAV,MAIN CONTENT,FOOTER are the components of a web application.
+  -->Component can be reused;
+  The same compnent can be reusable for angular,react,vue by simply passing right data into
+   the article component;
+
+3.React is declrative:
+  -->Tell React what you want and React will build the actual UI.
+  So we should tell to react ,that How would UI look like........
+->React can be part of a single page,or entire application.
+-->React Native for Mobile Applications.
+
+4.Prerequisites:
+->HTML,css and JavaScript fundamentals:
+->knowledge of ES6(Modern javascript) is also essential.
+-->***JavaScript-'this' keyword,filter,map and reduce Concepts you should aware of.
+ES6:let & const,arrow functions,template literals,default parameteres,object literals,Reactjs
+    and spread operators and destructuring assignment.
+
