@@ -14,12 +14,17 @@ class Toggle extends React.Component {
         isToggleOn: !prevState.isToggleOn
       }));
     }
+    callFn(){
+      console.log("this is="+this);
+    }
   
     render() {
       return (
-        <button onClick={this.handleClickValue}>
+        <div>
+      <button onClick={this.handleClickValue}>
           {this.state.isToggleOn ? 'ON' : 'OFF'}
         </button>
+      <button onClick={callFn}>Click this button</button></div> 
       );
     }
   }
